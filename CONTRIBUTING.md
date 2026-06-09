@@ -4,7 +4,7 @@ Contributions are welcome. Please follow the guidelines below.
 
 ## Reporting Bugs
 
-Open an issue on [GitHub](https://github.com/lenius/laravel-altid/issues) and include:
+Open an issue on [GitHub](https://github.com/Lenius-Technologies/laravel-altid/issues) and include:
 
 - A clear description of the problem
 - Steps to reproduce
