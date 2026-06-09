@@ -13,8 +13,8 @@ AltID is a digital identity wallet built on the [eIDAS2](https://digst.dk/it-loe
 
 ## Requirements
 
-- PHP 8.2+
-- Laravel 11+
+- PHP 8.4+
+- Laravel 11, 12 or 13
 - A cache driver (Redis recommended for production)
 
 ## Installation
