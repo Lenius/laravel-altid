@@ -1,4 +1,4 @@
-# laravel-altid
+# Laravel AltID
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/Lenius-Technologies/laravel-altid.svg?style=flat-square)](https://packagist.org/packages/Lenius-Technologies/laravel-altid)
 [![GitHub Tests Action Status](https://github.com/Lenius-Technologies/laravel-altid/actions/workflows/run-tests.yml/badge.svg)](https://github.com/Lenius-Technologies/laravel-altid/actions?query=workflow%3Arun-tests+branch%3Amain)
