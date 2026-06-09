@@ -1,10 +1,10 @@
 # Laravel AltID
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/Lenius-Technologies/laravel-altid.svg?style=flat-square)](https://packagist.org/packages/Lenius-Technologies/laravel-altid)
-[![GitHub Tests Action Status](https://github.com/Lenius-Technologies/laravel-altid/actions/workflows/run-tests.yml/badge.svg)](https://github.com/Lenius-Technologies/laravel-altid/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://github.com/Lenius-Technologies/laravel-altid/actions/workflows/fix-php-code-style-issues.yml/badge.svg)](https://github.com/Lenius-Technologies/laravel-altid/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![codecov](https://codecov.io/gh/Lenius-Technologies/laravel-altid/branch/main/graph/badge.svg)](https://codecov.io/gh/Lenius-Technologies/laravel-altid)
-[![Total Downloads](https://img.shields.io/packagist/dt/Lenius-Technologies/laravel-altid.svg?style=flat-square)](https://packagist.org/packages/Lenius-Technologies/laravel-altid)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/lenius/laravel-altid.svg?style=flat-square)](https://packagist.org/packages/lenius/laravel-altid)
+[![GitHub Tests Action Status](https://github.com/lenius/laravel-altid/actions/workflows/run-tests.yml/badge.svg)](https://github.com/lenius/laravel-altid/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://github.com/lenius/laravel-altid/actions/workflows/fix-php-code-style-issues.yml/badge.svg)](https://github.com/lenius/laravel-altid/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![codecov](https://codecov.io/gh/lenius/laravel-altid/branch/main/graph/badge.svg)](https://codecov.io/gh/lenius/laravel-altid)
+[![Total Downloads](https://img.shields.io/packagist/dt/lenius/laravel-altid.svg?style=flat-square)](https://packagist.org/packages/lenius/laravel-altid)
 
 A Laravel package for integrating with [AltID](https://www.digitaliser.dk/altid) — Danmarks officielle app til digitalt ID og aldersverifikation.
 
@@ -21,7 +21,7 @@ AltID is a digital identity wallet built on the [eIDAS2](https://digst.dk/it-loe
 ## Installation
 
 ```bash
-composer require Lenius-Technologies/laravel-altid
+composer require lenius/laravel-altid
 ```
 
 Publish the config file:
