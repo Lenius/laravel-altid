@@ -1,37 +1,26 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Lenius\LaravelAltid\Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
+use Lenius\LaravelAltid\LaravelAltidServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use VendorName\Skeleton\SkeletonServiceProvider;
 
 class TestCase extends Orchestra
 {
-    protected function setUp(): void
-    {
-        parent::setUp();
-
-        Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'VendorName\\Skeleton\\Database\\Factories\\'.class_basename($modelName).'Factory'
-        );
-    }
-
-    protected function getPackageProviders($app)
+    protected function getPackageProviders($app): array
     {
         return [
-            SkeletonServiceProvider::class,
+            LaravelAltidServiceProvider::class,
         ];
     }
 
-    public function getEnvironmentSetUp($app)
+    public function getEnvironmentSetUp($app): void
     {
-        config()->set('database.default', 'testing');
-
-        /*
-         foreach (\Illuminate\Support\Facades\File::allFiles(__DIR__ . '/../database/migrations') as $migration) {
-            (include $migration->getRealPath())->up();
-         }
-         */
+        config()->set('cache.default', 'array');
+        config()->set('app.url', 'https://altid-test.example.test');
+        config()->set('altid.age_claim', 'age_over_18');
+        config()->set('altid.transaction_ttl_minutes', 15);
+        config()->set('altid.accept_unverified_responses', true);
+        config()->set('altid.debug', false);
     }
 }
