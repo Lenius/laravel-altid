@@ -1,5 +1,5 @@
 {
-    "name": "Lenius-Technologies/laravel-altid",
+    "name": "lenius/laravel-altid",
     "description": "AltID age verification (OID4VP/mdoc) integration for Laravel",
     "keywords": [
         "lenius",
