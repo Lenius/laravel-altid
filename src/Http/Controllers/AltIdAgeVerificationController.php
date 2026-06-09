@@ -61,7 +61,7 @@ class AltIdAgeVerificationController extends Controller
 
         if ($payload === [] && $rawBody !== '') {
             parse_str($rawBody, $parsedBody);
-            $payload = is_array($parsedBody) ? $parsedBody : [];
+            $payload = $parsedBody;
         }
 
         $payload['_request_meta'] = [
