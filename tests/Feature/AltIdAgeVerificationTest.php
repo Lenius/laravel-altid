@@ -201,7 +201,7 @@ it('includes callback in status response when debug is enabled', function () {
 it('passes the full callback payload including apu to the validator', function () {
     $captured = [];
 
-    app()->instance(AltIdAgePresentationValidator::class, new class ($captured) implements AltIdAgePresentationValidator
+    app()->instance(AltIdAgePresentationValidator::class, new class($captured) implements AltIdAgePresentationValidator
     {
         public function __construct(private array &$captured) {}
 
